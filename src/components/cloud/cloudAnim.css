@@ -1,0 +1,13 @@
+.toTop {
+	animation: cloud 1s linear infinite;
+}
+
+@keyframes cloud {
+	from {
+		transform: translateY(0px);
+	}
+
+	to {
+		transform: translateY(100px);
+	}
+}

@@ -1,21 +1,26 @@
-import Image from 'next/image'
+import BG from '@/components/bg/bg';
+import Header from '@/components/header/header';
 
 export default function Home() {
   return (
-    <div className="bg-white flex-col justify-start items-center gap-2.5 inline-flex">
-      <div className="self-stretch h-[70px] bg-white justify-between items-center gap-2.5 inline-flex">
-        <div className="justify-start items-center flex">
-          <div className="text-black text-[12px] font-bold">Cloud Studio</div>
-        </div>
-        <div className="w-[70px] h-[70px] justify-center items-center flex">
-          <img className="w-[52px] h-[52px]" src="/images/cloud-studio-logo.png" />
-        </div>
-        <div className="w-52 py-4 justify-center items-center gap-4 flex">
-          <div className="text-black text-[12px] font-bold">VK</div>
-          <div className="text-black text-[12px] font-bold">TELEGRAM</div>
-          <div className="text-black text-[12px] font-bold">INSTAGRAM</div>
+    <>
+      <BG className='' />
+      <Header />
+      <div className='h-[800px] flex flex-row max-w-[1280px] w-full'>
+        <div className='flex flex-row justify-between w-full'>
+          <div>
+            hello
+          </div>
+
+          <div>
+            hey
+          </div>
+
         </div>
       </div>
-    </div>
+      <div className='bg-white h-[100px] w-full'>
+
+      </div>
+    </>
   )
 }

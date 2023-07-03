@@ -25,3 +25,36 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.small-cloud {
+  width: 32px;
+  height: 27px;
+}
+
+.toTop {
+  animation: cloudToTop 3s linear infinite;
+}
+
+.toBottom {
+  animation: cloudToBottom 3s linear infinite;
+}
+
+@keyframes cloudToTop {
+  from {
+    transform: translateY(100px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes cloudToBottom {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(100px);
+  }
+}
