@@ -7,8 +7,8 @@ export default function Home() {
     <>
       <BG />
       <Header />
-      <div className='h-fit flex max-w-[1280px] px-4 py-8 w-full '>
-        <div className='flex flex-col justify-between w-full gap-8 lg:gap-[80px] 2xl:flex-row items-center'>
+      <div className='h-fit flex flex-col items-center w-full bg-gradient-to-b from-transparent via-transparent to-white via-95%'>
+        <div className='flex max-w-[1280px] flex-col px-4 py-8 justify-between w-full gap-8 lg:gap-[80px] 2xl:flex-row items-center'>
           <div className='flex flex-col gap-4 w-[70%]'>
             <h2 className='font-bold text-2xl'>
               Title
@@ -21,15 +21,15 @@ export default function Home() {
           <div className={'flex justify-start gap-8 lg:gap-[80px]'}>
             <Avatar src={'/images/avatar1.jpg'} alt={'avatar'} />
             <Avatar src={'/images/avatar2.jpg'} alt={'avatar'} />
-            <Avatar src={'/images/avatar3.jpg'} alt={'avatar'} />
+            {/* <Avatar src={'/images/avatar3.jpg'} alt={'avatar'} /> */}
           </div>
 
         </div>
-      </div>
-      <div className='h-[1000px] backdrop-invert w-full '>
+        <div className='backdrop-invert w-full h-64'>
 
-
+        </div>
       </div>
+
 
     </>
   )
