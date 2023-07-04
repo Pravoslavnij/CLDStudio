@@ -23,7 +23,6 @@ jobs:
       - name: Lint
         run: |
           npx next telemetry disable
-        run: |
           npm run lint
 
       - name: Set up Docker Buildx
