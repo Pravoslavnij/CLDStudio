@@ -12,7 +12,7 @@ export default function Logo() {
 
 	return (
 		<div className="relative h-[52px] w-[52px]">
-			<Image className="absolute top-0 z-[-2]" fill src={"/images/logo.png"} alt="" />
+			<Image className="absolute top-0 z-[-2]" quality={100} fill src={"/images/logo.png"} alt="" />
 			{
 				!!anim &&
 				<>

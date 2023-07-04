@@ -2,3 +2,6 @@
 /.next
 /.storybook
 /src/stories
+/.github
+.gitignore
+README.md
