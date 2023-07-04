@@ -8,13 +8,13 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -37,6 +37,45 @@ body {
 
 .toBottom {
   animation: cloudToBottom 3s linear infinite;
+}
+
+.rainPoint1 {
+  animation: rain 1s linear infinite;
+  animation-delay: 0s;
+}
+
+.rainPoint2 {
+  animation: rain 1s linear infinite;
+  animation-delay: 0.3s;
+}
+
+.rainPoint3 {
+  animation: rain 1s linear infinite;
+  animation-delay: 0.6s;
+}
+
+@keyframes rain {
+  0% {
+    top: 37px;
+    opacity: 0;
+  }
+
+  5% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 50px;
+    opacity: 0;
+  }
 }
 
 @keyframes cloudToTop {
