@@ -21,7 +21,7 @@ export default function Home() {
           <div className={'flex justify-start gap-8 lg:gap-[80px]'}>
             <Avatar src={'/images/avatar1.jpg'} alt={'avatar'} />
             <Avatar src={'/images/avatar2.jpg'} alt={'avatar'} />
-            {/* <Avatar src={'/images/avatar3.jpg'} alt={'avatar'} /> */}
+            <Avatar src={'/images/avatar3.jpg'} alt={'avatar'} />
           </div>
 
         </div>
