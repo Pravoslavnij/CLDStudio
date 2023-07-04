@@ -25,7 +25,7 @@ export default function Home() {
           </div>
 
         </div>
-        <div className='backdrop-invert w-full h-64'>
+        <div className='backdrop-invert w-full h-[100vh]'>
 
         </div>
       </div>
