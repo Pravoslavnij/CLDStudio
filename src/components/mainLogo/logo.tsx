@@ -8,7 +8,7 @@ export default function Logo() {
 
 	useEffect(() => {
 		setAnim(Boolean(Math.round(Math.random())))
-	}, [])
+	}, [setAnim])
 
 	return (
 		<div className="relative h-[52px] w-[52px]">

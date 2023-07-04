@@ -2,14 +2,16 @@ FROM node:latest
 
 WORKDIR /usr/src/app
 
+RUN apt-get update && apt-get install -y yarn
+
 COPY package.json .
 
-RUN npm install
+RUN yarn install
 
 COPY . .
 
-RUN npm run build
+RUN yarn build
 
 EXPOSE 3000
 
-CMD [ "npm", "run", "start" ]
+CMD [ "yarn", "start" ]
