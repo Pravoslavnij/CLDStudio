@@ -1,6 +1,7 @@
 import Avatar from '@/components/avatar/avatar';
 import BG from '@/components/bg/bg';
 import Header from '@/components/header/header';
+import PoweredBy from '@/components/poweredBy/poweredBy';
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
 
         </div>
       </div>
-
+      <PoweredBy />
 
     </>
   )
